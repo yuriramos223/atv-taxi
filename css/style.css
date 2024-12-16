@@ -1,0 +1,132 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 60px 40px 60px;
+}
+header div.logo {
+    display: flex;
+}
+header div.logo ul {
+    display: flex;
+    padding: 10px;
+}
+header div.logo ul li {
+    padding: 0 20px 0 20px;
+}
+header div.logo div.img {
+    display: flex;
+}
+header div.logo div.img p {
+    padding: 10px;
+}
+header div.logo ul li a {
+    color: #0F172A;
+    text-decoration: none;
+}
+header div.login ul{
+    display: flex;
+    padding: 10px;
+}
+header div.login ul li {
+    padding: 0 20px 0 20px;
+}
+header div.login ul li a{
+    color: #FBBC05;
+    text-decoration: none;
+}
+header div.login ul li.fundo-amarelo a {
+    background:#FBBC05;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+}
+main section.hero {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(121,189,154,0.2),rgba(121,189,154,0.2)), url(../scr/images/Hero\(1\).png) no-repeat center center;
+    background-size: cover;
+    padding: 0 15vw 0 15vw;
+}
+main section.hero div h2 {
+    font-size: 3rem;
+    color: #252B42;
+    padding: 5vw 5vw 3vw 5vw;
+    font-weight: 700;
+}
+main section.hero div p.texto {
+    font-size: 1.4rem;
+    color: #737373;
+    padding: 0 5vw 0 5vw;
+}
+main section.hero div ul {
+    display: flex;
+    margin:  0 2vw 2vw 2vw;
+}
+main section.hero div ul li {
+    color: white;
+    background: #252B42;
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+}
+main section.hero div ul li.primeiro {
+    margin: 3vw 2vw 4vw 4vw;
+}
+main section.hero div ul li.segundo {
+    margin: 3vw 4vw 4vw 0;
+}
+main section.hero div ul li span {
+    padding:  0 10px 0 10px;
+    font-size: 2rem;
+}
+main section.hero div ul li p {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+main section.features h2 {
+    color: #252B42;
+    text-align: center;
+    font-size: 3rem;
+    margin: 8vw 0 0 0;
+} 
+main section.features p {
+    color: #737373;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 2vw 0 0 0;
+}
+main section.features div.inicio {
+    display: flex;
+    margin: 3vw 4vw 4vw 10vw;
+    justify-content: center;
+}
+main section.features div.lista {
+    margin: 0 4vw 4vw 10vw;
+}
+main section.features div.inicio div.lista ul.lista1{
+    display: flex;
+}
+main section.features div.lista ul.lista1 li{
+    margin: 0 2vw 0 2vw;
+}
+main section.features div.lista ul li{
+    margin: 0 2vw 0 2vw;
+}
+main section.features div.inicio div.lista ul li span {
+    color: #FBBC05;
+    background: rgba(225, 244, 255, 1);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin: 1vw 0 1vw 0;
+}
+main section.features div.inicio div.lista ul li h3 {
+    font-size: 1.3rem;
+}
+main section.features div.inicio div.lista ul li p {
+    font-size: 1.2rem;
+    margin: 1vw 0 1vw 0;
+    text-align: left;
+}
+
+
